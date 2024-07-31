@@ -1,0 +1,121 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #007bff; /* Cor azul elegante */
+}
+
+.profile p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.location {
+    font-style: italic;
+    color: #777;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #007bff; /* Cor azul elegante */
+}
+
+.summary p {
+    line-height: 1.6;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #eee;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin: 0 10px 10px 0;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    margin: 0 0 5px;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.period, .location {
+    font-style: italic;
+    color: #777;
+}
+
+.degree h3 {
+    margin: 0 0 5px;
+}
+
+.institution {
+    font-weight: bold;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+}
